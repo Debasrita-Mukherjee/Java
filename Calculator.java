@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class Calculator {
 
     // Method to calculate power of integers
@@ -12,12 +14,28 @@ class Calculator {
 
     public static void main(String[] args) {
 
-        // Testing powerInt()
-        int result1 = Calculator.powerInt(2, 5);
-        System.out.println("2^5 = " + result1);
+        Scanner sc = new Scanner(System.in);
 
-        // Testing powerDouble()
-        double result2 = Calculator.powerDouble(2.5, 3);
-        System.out.println("2.5^3 = " + result2);
+        // Taking integer input
+        System.out.print("Enter an integer number: ");
+        int num1 = sc.nextInt();
+
+        System.out.print("Enter the power: ");
+        int num2 = sc.nextInt();
+
+        int result1 = Calculator.powerInt(num1, num2);
+        System.out.println(num1 + "^" + num2 + " = " + result1);
+
+        // Taking double input
+        System.out.print("Enter a double number: ");
+        double num3 = sc.nextDouble();
+
+        System.out.print("Enter the power: ");
+        int num4 = sc.nextInt();
+
+        double result2 = Calculator.powerDouble(num3, num4);
+        System.out.println(num3 + "^" + num4 + " = " + result2);
+
+        sc.close();
     }
 }
