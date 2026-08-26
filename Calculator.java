@@ -14,7 +14,7 @@ class Calculator {
 
         Scanner sc = new Scanner(System.in);
 
-        // Taking integer input
+
         System.out.print("Enter an integer number: ");
         int num1 = sc.nextInt();
 
@@ -24,7 +24,6 @@ class Calculator {
         int result1 = Calculator.powerInt(num1, num2);
         System.out.println(num1 + "^" + num2 + " = " + result1);
 
-        // Taking double input
         System.out.print("Enter a double number: ");
         double num3 = sc.nextDouble();
 
