@@ -6,7 +6,6 @@ class Employee {
     double salary;
     String designation;
 
-    // Constructor for Fresher
     Employee(String name) {
         this.emp_id = 101;
         this.name = name;
@@ -14,7 +13,6 @@ class Employee {
         this.designation = "Fresher";
     }
 
-    // Constructor for Executive
     Employee(String name, double salary, String designation) {
         this.emp_id = 102;
         this.name = name;
