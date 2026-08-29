@@ -20,7 +20,6 @@ class Employee {
         this.designation = designation;
     }
 
-    // Constructor for Temporary Member
     Employee() {
         this.emp_id = 103;
         this.name = "Temporary Employee";
@@ -28,7 +27,6 @@ class Employee {
         this.designation = "Temporary";
     }
 
-    // Method to display employee details
     void display() {
         System.out.println("Employee ID: " + emp_id);
         System.out.println("Name: " + name);
