@@ -42,11 +42,9 @@ public class EmployeeDemo {
 
         Scanner sc = new Scanner(System.in);
 
-        // Input for Fresher
         System.out.print("Enter Fresher name: ");
         String fresherName = sc.nextLine();
 
-        // Input for Executive
         System.out.print("Enter Executive name: ");
         String executiveName = sc.nextLine();
 
