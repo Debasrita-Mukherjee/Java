@@ -55,10 +55,8 @@ public class EmployeeDemo {
         System.out.print("Enter Executive designation: ");
         String executiveDesignation = sc.nextLine();
 
-        // Create Employee array
         Employee[] employees = new Employee[3];
 
-        // Create 3 Employee objects using overloaded constructors
         employees[0] = new Employee(fresherName);
         employees[1] = new Employee(
             executiveName,
@@ -67,7 +65,6 @@ public class EmployeeDemo {
         );
         employees[2] = new Employee();
 
-        // Display employee details
         System.out.println("\nEmployee Details:");
 
         for (Employee e : employees) {
