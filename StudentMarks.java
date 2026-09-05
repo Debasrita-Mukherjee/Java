@@ -7,10 +7,10 @@ public class StudentMarks {
         Scanner sc = new Scanner(System.in);
 
         try {
-            // Read number of students
+           
             System.out.print("Enter number of students: ");
             int n = sc.nextInt();
-            sc.nextLine(); // consume newline
+            sc.nextLine(); 
 
             // FileWriter for writing to the file
             FileWriter fw = new FileWriter("student_results.txt");
