@@ -12,7 +12,6 @@ public class StudentMarks {
             int n = sc.nextInt();
             sc.nextLine(); 
 
-            // FileWriter for writing to the file
             FileWriter fw = new FileWriter("student_results.txt");
 
             // Writer demonstrates character-based writing
