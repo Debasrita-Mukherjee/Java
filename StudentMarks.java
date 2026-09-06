@@ -14,7 +14,6 @@ public class StudentMarks {
 
             FileWriter fw = new FileWriter("student_results.txt");
 
-            // Writer demonstrates character-based writing
             Writer writer = fw;
 
             for (int i = 1; i <= n; i++) {
@@ -30,7 +29,7 @@ public class StudentMarks {
                 double mark3 = sc.nextDouble();
                 sc.nextLine();
 
-                // Calculate average
+    
                 double average = (mark1 + mark2 + mark3) / 3;
 
                 // Write result to file
