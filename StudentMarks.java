@@ -32,14 +32,13 @@ public class StudentMarks {
     
                 double average = (mark1 + mark2 + mark3) / 3;
 
-                // Write result to file
                 writer.write("Student Name: " + name + "\n");
                 writer.write("Marks: " + mark1 + ", " + mark2 + ", " + mark3 + "\n");
                 writer.write("Average Marks: " + average + "\n");
                 writer.write("-------------------------\n");
             }
 
-            // Close Writer/FileWriter
+
             writer.close();
 
             System.out.println("\nStudent results stored successfully.");
