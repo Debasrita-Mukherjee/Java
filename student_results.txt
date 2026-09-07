@@ -1,4 +1,8 @@
-Student Name: timir
-Marks: 90.0, 98.0, 89.0
-Average Marks: 92.33333333333333
+Student Name: Ram
+Marks: 90.0, 95.0, 100.0
+Average Marks: 95.0
+-------------------------
+Student Name: Shyam
+Marks: 95.0, 92.0, 98.0
+Average Marks: 95.0
 -------------------------
