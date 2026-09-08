@@ -18,11 +18,9 @@ public class StudentMarks {
 
             for (int i = 1; i <= n; i++) {
 
-                // Read student name
                 System.out.print("Enter name of student " + i + ": ");
                 String name = sc.nextLine();
 
-                // Read marks
                 System.out.print("Enter marks in 3 subjects: ");
                 double mark1 = sc.nextDouble();
                 double mark2 = sc.nextDouble();
@@ -43,7 +41,6 @@ public class StudentMarks {
 
             System.out.println("\nStudent results stored successfully.");
 
-            // BufferedReader for reading the generated file
             BufferedReader br =
                     new BufferedReader(new FileReader("student_results.txt"));
 

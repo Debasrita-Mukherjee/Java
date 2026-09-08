@@ -1,8 +1,4 @@
 Student Name: Ram
-Marks: 90.0, 95.0, 100.0
-Average Marks: 95.0
--------------------------
-Student Name: Shyam
-Marks: 95.0, 92.0, 98.0
-Average Marks: 95.0
+Marks: 96.0, 81.0, 80.0
+Average Marks: 85.66666666666667
 -------------------------
