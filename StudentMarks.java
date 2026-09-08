@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class StudentMarks {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
 
         try {
@@ -13,7 +12,6 @@ public class StudentMarks {
             sc.nextLine(); 
 
             FileWriter fw = new FileWriter("student_results.txt");
-
             Writer writer = fw;
 
             for (int i = 1; i <= n; i++) {
