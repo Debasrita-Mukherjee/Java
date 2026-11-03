@@ -17,7 +17,6 @@ class BankAccount {
         System.out.println("Balance: " + balance);
     }
 }
-
 public class BankApp {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
