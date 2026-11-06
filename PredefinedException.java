@@ -1,7 +1,5 @@
 import java.util.Scanner;
-
 public class PredefinedException {
-
     static void divide(int a, int b) throws ArithmeticException {
         if (b == 0) {
             throw new ArithmeticException("Division by zero is not allowed");
