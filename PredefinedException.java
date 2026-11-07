@@ -6,10 +6,8 @@ public class PredefinedException {
         }
         System.out.println("Result = " + (a / b));
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         try {
             System.out.print("Enter first number: ");
             int a = sc.nextInt();
