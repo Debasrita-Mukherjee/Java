@@ -19,14 +19,12 @@ class Employee {
         this.salary = salary;
         this.designation = designation;
     }
-
     Employee() {
         this.emp_id = 103;
         this.name = "Temporary Employee";
         this.salary = 15000;
         this.designation = "Temporary";
     }
-
     void display() {
         System.out.println("Employee ID: " + emp_id);
         System.out.println("Name: " + name);
