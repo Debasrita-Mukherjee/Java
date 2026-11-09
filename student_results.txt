@@ -1,4 +1,8 @@
-Student Name: Ram
-Marks: 96.0, 81.0, 80.0
-Average Marks: 85.66666666666667
+Student Name: Tanmay Das
+Marks: 56.0, 85.0, 62.0
+Average Marks: 67.66666666666667
+-------------------------
+Student Name: Saikat Dey
+Marks: 90.0, 75.0, 89.0
+Average Marks: 84.66666666666667
 -------------------------
