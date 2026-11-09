@@ -4,9 +4,7 @@ import java.util.Scanner;
 public class StudentMarks {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         try {
-           
             System.out.print("Enter number of students: ");
             int n = sc.nextInt();
             sc.nextLine(); 
@@ -33,7 +31,6 @@ public class StudentMarks {
                 writer.write("Average Marks: " + average + "\n");
                 writer.write("-------------------------\n");
             }
-
 
             writer.close();
 
